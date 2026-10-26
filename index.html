@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trolltunga Guide – the hike, the fjord and the trolls</title>
+<meta name="description" content="An offline guide app for the Trolltunga hike, Odda and Hardanger: parking and shuttles to P1, P2 and P3, a live hike planner, topo map, stories, a stamp passport and the Troll Hunter game.">
+<link rel="icon" href="icon-192.png">
+<style>
+  :root { --ground:#111C18; --card:#18261F; --panel:#0D1613; --ink:#EAEFE8; --muted:#A3B5AD; --line:#2D4038; --red:#E0603F; --sand:#E6C37A; --fjord:#8CC3D6; --paper:#F3ECDD; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; color:var(--ink); background:var(--ground); line-height:1.6; }
+  header { position:relative; text-align:center; padding:0 0 40px; }
+  .hero { display:block; width:100%; max-height:420px; object-fit:cover; }
+  .brand { display:flex; align-items:center; justify-content:center; gap:12px; margin:-36px auto 0; position:relative; }
+  .brand img { width:72px; height:72px; border-radius:50%; border:3px solid var(--ground); background:var(--paper); }
+  header h1 { margin:14px 0 4px; font-size:2.3rem; letter-spacing:-.5px; }
+  header .lead { max-width:600px; margin:0 auto; padding:0 16px; font-size:1.12rem; color:var(--muted); }
+  .badge { display:inline-block; margin-top:22px; background:var(--red); color:#fff; padding:10px 22px; border-radius:999px; font-weight:700; }
+  main { max-width:920px; margin:0 auto; padding:0 16px 40px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:20px; }
+  .card h3 { margin:0 0 6px; color:var(--sand); font-size:1.05rem; }
+  .card p { margin:0; color:var(--muted); }
+  section { margin-top:40px; }
+  section h2 { margin:0 0 14px; font-size:1.5rem; }
+  .art { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; }
+  .art figure { margin:0; background:var(--paper); border-radius:14px; overflow:hidden; }
+  .art img { display:block; width:100%; height:170px; object-fit:cover; }
+  .art figcaption { color:#14211D; padding:10px 12px; font-size:.95rem; font-weight:600; }
+  .note { background:var(--panel); border:1px solid var(--line); border-left:4px solid var(--sand); border-radius:12px; padding:16px 18px; color:var(--muted); }
+  .note strong { color:var(--ink); }
+  ul { padding-left:20px; color:var(--muted); }
+  footer { text-align:center; color:var(--muted); padding:28px 16px 44px; font-size:.95rem; border-top:1px solid var(--line); }
+  a { color:var(--fjord); }
+</style>
+</head>
+<body>
+<header>
+  <img class="hero" src="hero.jpg" alt="Watercolour of the Hardangerfjord and Trolltunga">
+  <div class="brand"><img src="logo-small.png" alt="Trolltunga Guide logo"></div>
+  <h1>Trolltunga Guide</h1>
+  <p class="lead">Your companion for the Trolltunga hike, Odda and the Hardangerfjord. Get to the right car park, plan your day, walk with a live tracker and topo map, and hear the stories of the places you pass. Works offline on the mountain.</p>
+  <span class="badge">Coming soon to Google Play</span>
+</header>
+
+<main>
+  <div class="grid">
+    <div class="card"><h3>Getting to the start</h3><p>Step-by-step directions to P1, P2 and P3, prices, booking, the road toll, shuttle buses and the mistakes people make.</p></div>
+    <div class="card"><h3>Plan your day</h3><p>Choose your start, pace and time on top. The planner uses the real climbs on the trail and warns you about sunset, the last bus and turnaround time.</p></div>
+    <div class="card"><h3>Live on the trail</h3><p>Time, distance, metres climbed and steps, your position on the topo map and elevation profile, and new estimates from your real pace.</p></div>
+    <div class="card"><h3>Safety first</h3><p>Today's season, road and weather status, emergency shelters, an SOS page with your position, and clear advice on when to turn back.</p></div>
+    <div class="card"><h3>Stories and places</h3><p>69 places and 26 stories from Hardanger: dams and waterfalls, monks and fruit, the industry of Odda, and the trolls.</p></div>
+    <div class="card"><h3>Hardanger Passport</h3><p>Collect stamps at the real places, rise from Coming Adventurer to Mountain King, and find the way with a map and camera navigation.</p></div>
+  </div>
+
+  <section>
+    <h2>Hand-painted Hardanger</h2>
+    <div class="art">
+      <figure><img src="art-tongue.jpg" alt="Watercolour of Trolltunga"><figcaption>The Troll's Tongue</figcaption></figure>
+      <figure><img src="art-trail.jpg" alt="Watercolour of the trail"><figcaption>On the trail</figcaption></figure>
+      <figure><img src="art-fjord.jpg" alt="Watercolour of Sørfjorden"><figcaption>Sørfjorden</figcaption></figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>Also inside</h2>
+    <ul>
+      <li>About trolls: where they come from, the kinds of trolls in the old tales, and how to defeat one.</li>
+      <li>Troll Hunter: a training game where your passport rank makes you stronger.</li>
+      <li>The Hardangerfjord: facts, history and a timeline.</li>
+      <li>Weather from MET Norway, a happenings calendar, fun facts and your own hike log with GPX export.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Booking links</h2>
+    <div class="note"><strong>Disclosure:</strong> the app links to places to stay and tours, for example on Booking.com and GetYourGuide. Some of these are affiliate links, marked "Ad" in the app. If you book through them, we may earn a small commission at no extra cost to you. It helps keep the guide up to date. Our tips are never paid for.</div>
+  </section>
+
+  <section>
+    <h2>Important</h2>
+    <p style="color:var(--muted)">Trolltunga is a long and demanding mountain hike. The app gives general guidance and does not replace your own judgement, the official information at trolltunga.com or the advice of the mountain rangers. There are no railings at the edge: keep well back. In an emergency, call 112 or 113.</p>
+  </section>
+</main>
+
+<footer>
+  <a href="privacy.html">Privacy policy</a> · Contact: <a href="mailto:post.rafiki.digital+trolltunga@gmail.com">post.rafiki.digital+trolltunga@gmail.com</a><br>
+  Maps © Kartverket and © OpenStreetMap contributors · Weather from MET Norway<br>
+  © 2026 Trolltunga Guide · Not affiliated with Trolltunga AS
+</footer>
+</body>
+</html>
